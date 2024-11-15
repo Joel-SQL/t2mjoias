@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/iconhm.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Loja</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="logado.html">
+                    <img src="/img/logohome.png" alt="iconlogo">
+                </a>
+                <span>T<span>2</span><span>M</span> <br> Joias</span>
+            </div>
+
+            <div class="menu-toggle" id="menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="navlinks" id="navLinks">
+                <li><div class="subBtn"><a href="#" id="produtos">Produtos</a></div></li>
+                <li><div class="subBtn"><a href="#" id="contato">Contato</a></div></li>
+                <li><div class="subBtn"><a href="#" id="loginbtn">Minha Conta</a></div></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="homeContainer">
+        <section class="home">
+            <div class="startContainer">
+                <h1>Correntes<br> <span>Exclusivas</span></h1>
+                <p class="text1">Brilho e Elegância em cada <br> Detalhe</p>
+                <a href="#" class="prodBtn">
+                    <button type="button" id="prodbtn">VER PRODUTOS</button>
+                </a>
+
+                <div class="text2">
+                    <p>Nossas peças são cuidadosamente selecionadas, <br>
+                        destacando a beleza e o valor atemporal do ouro, prata e <br>
+                        moedas antigas. Oferecemos produtos que combinam <br>
+                        tradição e modernidade, criando uma experiência de <br>
+                        compra única.</p>
+                </div>
+            </div>
+
+            <ul class="icons">
+                <li>
+                    <a href="#">
+                        <img src="img/iconinsta.png" alt="iconinsta">
+                    </a>
+                    
+                    <a href="#">
+                        <img src="img/iconzap.png" alt="iconzap">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+    <section class="carrossel">
+        <div class="carrossel-container">
+            <img src="/img/correntegold0.png" alt="Imagem 1" class="carrossel-image" id="image1">
+            <img src="/img/correnteprata2.png" alt="Imagem 2" class="carrossel-image" id="image2" style="display: none;">
+            <img src="/img/correntegold2.png" alt="Imagem 3" class="carrossel-image" id="image3" style="display: none;">
+            <img src="/img/correnteprata1.png" alt="Imagem 4" class="carrossel-image" id="image4" style="display: none;">
+        </div>
+        <button id="prevBtn">
+            <i class='bx bx-caret-left-circle' ></i>
+        </button>
+        <button id="nextBtn">
+            <i class='bx bx-caret-right-circle'></i>
+        </button>
+        
+        <section class="cards-section">
+            <h2>Confira abaixo</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="/img/card1.png" alt="Imagem 1">
+                </div>
+                <div class="card">
+                    <img src="/img/card2.png" alt="Imagem 2">
+                </div>
+                <div class="card">
+                    <img src="/img/card3.png" alt="Imagem 3">
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <footer class="footer">
+        <div class="footerContainer">
+            <span class="copy">
+                <img src="/img/logohome.png" alt="">
+                &copy; T2M Joias</span>
+            <ul class="termos">
+                <li>
+                    <h4>Empresa</h4>
+                    <a href="#">
+                        <span> Termos de serviços</span> <br> <span> Termos de Uso</span> 
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="contatos">
+                <li>
+                    <h4>Contato</h4>
+                    <a href="#">
+                        <span> número</span> <br> <span> email</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

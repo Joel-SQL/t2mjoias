@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylesub.css">
+    <!-- css -->
+    <link rel="shortcut icon" href="../img/iconhm.png" type="image/x-icon">
+    <!-- favIcon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- boxIcons -->
+    <title>T2M Joias - Criar Conta</title>
+</head>
+
+<body id="cadastro">
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="/img/logohome.png" alt="iconlogo">
+                </a>
+                <span>T<span>2</span><span>M</span> <br> Joias</span>
+            </div>
+
+            <div class="menu-toggle" id="menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="navlinks" id="navLinks">
+                <li>
+                    <div class="subBtn"><a href="#" id="produtos">Produtos</a></div>
+                </li>
+                <li>
+                    <div class="subBtn"><a href="#" id="contato">Contato</a></div>
+                </li>
+                <li>
+                    <div class="subBtn"><a href="../video/cadastro.html" id="subscribeBtn">Cadastre-se</a></div>
+                </li>
+                <li>
+                    <div class="subBtn"><a href="../video/login.html" id="loginbtn">Entrar</a></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <form class="cad">
+        <ul class="cadContainer">
+            <h2>Criar Conta</h2>
+            <li>
+                <label for="nome" class="nome">Nome</label>
+                <br>
+                <input type="text" id="nome" required>
+            </li>
+            <li>
+                <label for="sobrenome" class="sobrenome">Sobrenome</label>
+                <br>
+                <input type="text" id="sobrenome" required>
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" id="email" placeholder="ex: seuemail@example.com" required>
+            </li>
+            <li>
+                <label for="telefone" class="telefonef">Telefone(opcional)</label>
+                <br>
+                <input type="email" id="email" placeholder="ex: 11983241747">
+            </li>
+            <li>
+                <label for="senha">Senha</label>
+                <br>
+                <input type="password" id="password" required>
+            </li>
+            <li>
+                <button type="submit" id="criar">CRIAR CONTA</button>
+            </li>
+            <p>Já possui uma conta? <a href="../video/login.html">Faça Login</a></p>
+        </ul>
+    </form>
+
+    <footer class="footer">
+        <div class="footerContainer">
+            <span class="copy">
+                <img src="/img/logohome.png" alt="">
+                &copy; T2M Joias</span>
+            <ul class="termosc">
+                <li>
+                    <h4>Empresa</h4>
+                    <a href="#">
+                        <span> Termos de serviços</span> <br> <span> Termos de Uso</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="contatosc">
+                <li>
+                    <h4>Contato</h4>
+                    <a href="#">
+                        <span> número</span> <br> <span> email</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+</body>
+
+</html>
